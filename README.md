@@ -30,7 +30,7 @@ Products are loaded from `items.json` and rendered dynamically in the browser.
 
 ## Project Structure
 
-```text
+```
 .
 ├── index.html
 ├── root.css
@@ -42,7 +42,7 @@ Products are loaded from `items.json` and rendered dynamically in the browser.
     └── videos
         └── ad.mp4           (optional)
 
-
+---
 
 
 ---
