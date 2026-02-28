@@ -8,7 +8,7 @@
     "priceExVat": 157.74,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/Silicone_Oven_Glove_Bordeaux.jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/Silicone_Oven_Glove_Bordeaux.jpg"
   },
   {
     "sku": "125089",
@@ -19,7 +19,7 @@
     "priceExVat": 1393.03,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/Chef_Series_II_Stockpot.jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/Chef_Series_II_Stockpot.jpg"
   },
   {
     "sku": "163170",
@@ -30,7 +30,7 @@
     "priceExVat": 284.43,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/Bamboo_Clear_Storage_Jar_1.9L.jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/Bamboo_Clear_Storage_Jar_1.9L.jpg"
   },
   {
     "sku": "163171",
@@ -41,7 +41,7 @@
     "priceExVat": 240.09,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/Bamboo_Clear_Storage_Jar_550ml.jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/Bamboo_Clear_Storage_Jar_550ml.jpg"
   },
   {
     "sku": "174317",
@@ -52,7 +52,7 @@
     "priceExVat": 164.07,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/MULTISERVER_CRUSHED_RASPBERRY.jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/MULTISERVER_CRUSHED_RASPBERRY.jpg"
   },
   {
     "sku": "175832",
@@ -63,7 +63,7 @@
     "priceExVat": 113.39,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/Eco_Bottle_2L_(Caribbean_SeaAruba).jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/Eco_Bottle_2L_(Caribbean_SeaAruba).jpg"
   },
   {
     "sku": "179451",
@@ -74,7 +74,7 @@
     "priceExVat": 303.44,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/Xploris_Easy_Open_Flask_Gradient_Mountain_Dawn.jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/Xploris_Easy_Open_Flask_Gradient_Mountain_Dawn.jpg"
   },
   {
     "sku": "179452",
@@ -85,7 +85,7 @@
     "priceExVat": 303.44,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/Xploris_Easy_Open_Flask_Gradient_Earth_Sky.jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/Xploris_Easy_Open_Flask_Gradient_Earth_Sky.jpg"
   },
   {
     "sku": "180343",
@@ -96,7 +96,7 @@
     "priceExVat": 57.01,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/EcoBottleGenI310ml.jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/EcoBottleGenI310ml.jpg"
   },
   {
     "sku": "180665",
@@ -107,7 +107,7 @@
     "priceExVat": 119.73,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/Slimline_Pitcher_2L_(Brilliant_Blue).jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/Slimline_Pitcher_2L_(Brilliant_Blue).jpg"
   },
   {
     "sku": "181839",
@@ -118,7 +118,7 @@
     "priceExVat": 132.4,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/UNIVERSAL_JAR_WITH_STRAW_SOFT_CANDY.jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/UNIVERSAL_JAR_WITH_STRAW_SOFT_CANDY.jpg"
   },
   {
     "sku": "183758",
@@ -129,7 +129,7 @@
     "priceExVat": 62.71,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/Cutlery_Set_(Peacock).jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/Cutlery_Set_(Peacock).jpg"
   },
   {
     "sku": "183815",
@@ -140,7 +140,7 @@
     "priceExVat": 157.74,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/Blossom_Plates_(4)_(Clover).jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/Blossom_Plates_(4)_(Clover).jpg"
   },
   {
     "sku": "183835",
@@ -151,7 +151,7 @@
     "priceExVat": 62.71,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/CutlerySet(MilkyMint).jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/CutlerySet(MilkyMint).jpg"
   },
   {
     "sku": "183844",
@@ -162,7 +162,7 @@
     "priceExVat": 81.72,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/ModularBowl1.5L(Vineyard).jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/ModularBowl1.5L(Vineyard).jpg"
   },
   {
     "sku": "183846",
@@ -173,7 +173,7 @@
     "priceExVat": 94.39,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/ModularBowl1.9L(Lilac).jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/ModularBowl1.9L(Lilac).jpg"
   },
   {
     "sku": "183930",
@@ -184,7 +184,7 @@
     "priceExVat": 126.06,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/ExpressionPitcher2.1L(Mint).jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/ExpressionPitcher2.1L(Mint).jpg"
   },
   {
     "sku": "183933",
@@ -195,7 +195,7 @@
     "priceExVat": 157.74,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/Jumbo _Good_Box _4L_with_handle_(Merlot).jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/Jumbo _Good_Box _4L_with_handle_(Merlot).jpg"
   },
   {
     "sku": "183938",
@@ -206,7 +206,7 @@
     "priceExVat": 100.72,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/Spice_Servers_Large_Set_(2)_(Vineyard).jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/Spice_Servers_Large_Set_(2)_(Vineyard).jpg"
   },
   {
     "sku": "184260",
@@ -217,6 +217,6 @@
     "priceExVat": 176.74,
     "currency": "R",
     "qty": 0,
-    "imageUrl": "../assets/Tupperware/ads/imgs/Click_to_Go_Small_Round_(SageRootsClover).jpg"
+    "imageUrl": "./assets/Tupperware/ads/imgs/Click_to_Go_Small_Round_(SageRootsClover).jpg"
   }
 ]
