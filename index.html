@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sasolburg Online Store</title>
+
+  <!-- Google api -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" referrerpolicy="no-referrer" />
+
+   <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/SOS/logo.png" type="image/x-icon">
+  <!-- Default stylesheet -->
+  <link rel="stylesheet" href="./root.css" />
+</head>
+
+<body id="top">
+  <!-- Header: store title + filters + cart summary -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img class="brand-logo" />
+        <div>
+          <h1>Sasolburg Online Store</h1>
+          <span class="muted">
+              Reliable service with Real value.
+          </span>
+        </div>
+      </div>
+
+
+
+     
+
+<!-- header -->
+
+      <div class="header-actions">
+        <div class="field">
+          <label for="searchInput">Search</label>
+          <input id="searchInput" type="search" placeholder="Search by name, SKU, brand..." />
+        </div>
+
+        <div class="field">
+          <label for="categorySelect">Category</label>
+          <select id="categorySelect">
+            <option value="__all__">All</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="sortSelect">Sort</label>
+          <select id="sortSelect">
+            <option value="name-asc">Name (A → Z)</option>
+            <option value="name-desc">Name (Z → A)</option>
+            <option value="price-asc">Price (Low → High)</option>
+            <option value="price-desc">Price (High → Low)</option>
+            <option value="sku-asc">SKU (Asc)</option>
+            <option value="sku-desc">SKU (Desc)</option>
+          </select>
+        </div>
+
+        <div class="cart-summary" aria-live="polite">
+          <div class="cart-summary__row">
+            <span class="muted">Items</span>
+            <strong id="cartCount">0</strong>
+          </div>
+          <div class="cart-summary__row">
+            <span class="muted">Subtotal (excl VAT)</span>
+            <strong id="cartSubtotal">R 0.00</strong>
+          </div>
+          <button id="clearCartBtn" class="btn btn-ghost" type="button">Clear</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main: JS renders product cards into #itemsGrid -->
+  <main class="container">
+    <section class="toolbar">
+      <p class="muted" id="resultsMeta">Loading items…</p>
+    </section>
+
+    <section id="itemsGrid" class="grid" aria-label="Product list"></section>
+  </main>
+
+
+ 
+
+  <section class="register-card" aria-label="Tupperware Self Register Link">
+  <div class="register-card__top">
+    <h2 class="register-card__title">Register to Tupperware</h2>
+    <p class="muted register-card__subtitle">
+      Self Register Link (Copy and send the link below to all your social media handles.)
+    </p>
+  </div>
+
+  
+
+  <div class="register-card__actions">
+    <div class="brand-logo-tupp"></div>
+    <a style="text-align: center;"
+      class="btn"
+      href="https://amp.tuppafrica.co.za/register/160191/368"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      click here to <br>Register on Tupperware
+    </a>
+
+    <div class="copy-row">
+      <input
+        id="registerLink"
+        type="text"
+        value="https://amp.tuppafrica.co.za/register/160191/368"
+        readonly
+      />
+     <button id="copyRegisterBtn" class="btn btn-ghost btn-icon" type="button" aria-label="Copy to share on socials">
+  <i class="fa-solid fa-share-nodes" aria-hidden="true"></i>
+</button>
+    </div>
+
+
+    <!-- Share on Social Networks -->
+<h2 style="color: var(--text);">SHARE ON ..</h2>
+
+<div class="share-row" aria-label="Share register link">
+  <button class="btn share-btn btn-icon" type="button" data-platform="whatsapp" aria-label="Share on WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </button>
+
+  <button class="btn share-btn btn-icon" type="button" data-platform="facebook" aria-label="Share on Facebook">
+    <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+  </button>
+
+  <button class="btn share-btn btn-icon" type="button" data-platform="x" aria-label="Share on X">
+    <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+  </button>
+
+  <button class="btn share-btn btn-icon" type="button" data-platform="instagram" aria-label="Share on Instagram">
+    <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+  </button>
+</div>
+
+    <p id="copyStatus" class="muted copy-status" aria-live="polite"></p>
+  </div>
+</section>
+
+
+ <!-- Ad -->
+   <section class="ad-card" aria-label="Store advertisement">
+  <div class="ad-card__media">
+    <!--
+      Put your mp4 file here:
+      Example: ./assets/videos/ad.mp4
+    -->
+    <video
+      class="ad-video"
+      controls
+      preload="metadata"
+      poster="./assets/imgs/logo.png"
+    >
+      <source src="./assets/Tupperware/ads/vids/BigT.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="ad-card__content">
+    <h2 class="ad-card__title">Special Promotion</h2>
+    <p class="muted ad-card__text">
+      Watch the video to see our latest deals at <strong>Tupperware</strong>.
+    </p>
+
+    <a
+      class="btn"
+      href="https://amp.tuppafrica.co.za/register/160191/368"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Register to Tupperware
+    </a>
+  </div>
+</section>
+
+
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-col">
+      <div class="footer-brand">
+        <img class="brand-logo" src="./assets/Tupperware/TWlogo2024.png" alt="Sasolburg Online Store logo" />
+        <div>
+          <h3 class="footer-title">Sasolburg Online Store</h3>
+          <p class="muted footer-text">
+            Reliable service with Real value.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4 class="footer-heading">Quick links</h4>
+      <ul class="footer-links">
+        <li><a href="#top" class="footer-link">Back to top</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4 class="footer-heading">Info</h4>
+      <p class="muted footer-text">
+        <strong>ONLY</strong> in Sasolburg.
+        <br>
+        Images may be placeholders if not provided.
+        <p>
+  <strong>Delivery Fees:</strong> Delivery prices vary depending on distance and location.
+  <br>
+  For deliveries within <b style="color:red;">5 km</b>, delivery is free. <br>
+  Longer distances are quoted before delivery.
+</p>
+
+      </p>
+      <p class="muted footer-text">
+       Sasolburg Online Store &copy; <span id="year"></span> .
+      </p>
+    </div>
+  </div>
+</footer>
+  <!-- App logic -->
+  <script src="./app.js"></script>
+  <script src="./date.js"></script>
+</body>
+</html>
+
+
+
