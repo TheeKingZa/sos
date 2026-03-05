@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 set -e
 
-# ANSI colors
+# ==============================
+# COLORS
+# ==============================
+
 RED="\033[0;31m"
 GREEN="\033[0;32m"
 YELLOW="\033[1;33m"
@@ -20,46 +23,89 @@ function success {
   echo -e "${GREEN}✔ $1${RESET}"
 }
 
-# 1) Ensure we're in a git repo
+# ==============================
+# CHECK GIT REPOSITORY
+# ==============================
+
 if ! git rev-parse --git-dir &>/dev/null; then
-  error "Not a git repository. Run 'git init', add a remote, and make your first commit."
+  error "Not a git repository."
 fi
 
-# 2) Ensure we're on master
+# ==============================
+# CHECK BRANCH
+# ==============================
+
 CURRENT=$(git rev-parse --abbrev-ref HEAD)
+
 if [ "$CURRENT" != "master" ]; then
-  error "You must run this from the master branch (current: $CURRENT)."
+  error "Run this script from the master branch. Current: $CURRENT"
 fi
 
-# 3) Prompt for commit message
+# ==============================
+# CHECK REMOTE
+# ==============================
+
+if ! git remote get-url origin &>/dev/null; then
+  error "Remote 'origin' not configured."
+fi
+
+# ==============================
+# FETCH REMOTE STATE
+# ==============================
+
+info "Fetching latest remote changes..."
+git fetch origin
+
+# ==============================
+# COMMIT MESSAGE
+# ==============================
+
 echo -ne "${YELLOW}Enter commit message: ${RESET}"
 read -r MSG
+
 if [ -z "$MSG" ]; then
   error "Commit message cannot be empty."
 fi
 
-# 4) Stage all changes
+# ==============================
+# STAGE FILES
+# ==============================
+
 info "Staging changes..."
 git add .
 
-# 5) Commit if there are staged changes
+# ==============================
+# COMMIT IF NEEDED
+# ==============================
+
 if git diff --cached --quiet; then
   info "No changes to commit."
 else
   info "Committing: \"$MSG\""
-  git commit -m "$MSG" || error "Commit failed."
+  git commit -m "$MSG"
 fi
 
-# 6) Push master → origin/master
+# ==============================
+# PUSH MASTER
+# ==============================
+
 info "Pushing master → origin/master..."
-git push origin master || error "Failed to push to origin/master."
+git push origin master
 
-# 7) Push master → origin/gh-pages (force)
-info "Updating origin/gh-pages from master..."
-if git ls-remote --exit-code --heads origin gh-pages &>/dev/null; then
-  git push origin master:gh-pages --force || error "Failed to update gh-pages."
-else
-  git push origin master:gh-pages || error "Failed to create gh-pages."
-fi
+# ==============================
+# SYNC gh-pages
+# ==============================
+
+info "Syncing gh-pages with master..."
+
+git push origin master:gh-pages --force-with-lease
+
+# ==============================
+# SHOW RESULT
+# ==============================
+
+MASTER_HASH=$(git rev-parse master)
 
 success "Deployment complete!"
+echo -e "${GREEN}Master commit:${RESET} $MASTER_HASH"
+echo -e "${GREEN}gh-pages now matches master.${RESET}"
