@@ -1,0 +1,383 @@
+{
+  "products": [
+    {
+      "id": "184977",
+      "name": "Space Saver Rectangular 4.3L (Chili)",
+      "brand": "Tupperware",
+      "price": 199.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/184977.jpg"
+    },
+    {
+      "id": "998297",
+      "name": "Slimline Pitcher Set (2)",
+      "brand": "Tupperware",
+      "price": 298.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998297.jpg"
+    },
+    {
+      "id": "998301",
+      "name": "Jumbo Mug Set",
+      "brand": "Tupperware",
+      "price": 229.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998301.jpg"
+    },
+    {
+      "id": "998302",
+      "name": "Modular Bowl Set",
+      "brand": "Tupperware",
+      "price": 329.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998302.jpg"
+    },
+    {
+      "id": "998324",
+      "name": "Eco Bottle 500ml Set",
+      "brand": "Tupperware",
+      "price": 159.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998324.jpg"
+    },
+    {
+      "id": "998325",
+      "name": "Sandwich Keeper & Eco Bottle Set (Dragonfly BLUE)",
+      "brand": "Tupperware",
+      "price": 129.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998325.jpg"
+    },
+    {
+      "id": "998326",
+      "name": "Sandwich Keeper & Eco Bottle Set (Sweet Morning PINK)",
+      "brand": "Tupperware",
+      "price": 129.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998326.jpg"
+    },
+    {
+      "id": "998331",
+      "name": "Tall Drinking Tumblers (2) (Early Roots)",
+      "brand": "Tupperware",
+      "price": 89.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998331.jpg"
+    },
+    {
+      "id": "998332",
+      "name": "Tall Drinking Tumblers (4) (Early Roots)",
+      "brand": "Tupperware",
+      "price": 159.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998332.jpg"
+    },
+    {
+      "id": "998333",
+      "name": "Tropical Cups & Eco Bottle 310ml Set",
+      "brand": "Tupperware",
+      "price": 229.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998333.jpg"
+    },
+
+    {
+      "id": "998334",
+      "name": "Space Saver Round 2 Set (Black)",
+      "brand": "Tupperware",
+      "price": 129.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998334.jpg"
+    },
+    {
+      "id": "998335",
+      "name": "Space Saver Round 2 Set (Vineyard)",
+      "brand": "Tupperware",
+      "price": 129.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998335.jpg"
+    },
+    {
+      "id": "998336",
+      "name": "Space Saver Round 3 Set (Vineyard)",
+      "brand": "Tupperware",
+      "price": 149.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998336.jpg"
+    },
+    {
+      "id": "998337",
+      "name": "Space Saver Round 4 Set (Vineyard)",
+      "brand": "Tupperware",
+      "price": 179.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998337.jpg"
+    },
+    {
+      "id": "998338",
+      "name": "Space Saver Round 5 Set (Vineyard)",
+      "brand": "Tupperware",
+      "price": 199.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998338.jpg"
+    },
+    {
+      "id": "998339",
+      "name": "Space Saver Round Combo Set (Vineyard)",
+      "brand": "Tupperware",
+      "price": 299.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998339.jpg"
+    },
+
+    {
+      "id": "998351",
+      "name": "That's A Bowl 600ml Set",
+      "brand": "Tupperware",
+      "price": 149.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998351.jpg"
+    },
+    {
+      "id": "998356",
+      "name": "Premium Drinking Flask & Fruit on the Go",
+      "brand": "Tupperware",
+      "price": 299.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998356.jpg"
+    },
+    {
+      "id": "998358",
+      "name": "Cake Taker & Pastry Server",
+      "brand": "Tupperware",
+      "price": 249.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998358.jpg"
+    },
+    {
+      "id": "998359",
+      "name": "Xploris Flask Set",
+      "brand": "Tupperware",
+      "price": 799.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998359.jpg"
+    },
+    {
+      "id": "998360",
+      "name": "Gourmet Server & Premium Drinking Flask",
+      "brand": "Tupperware",
+      "price": 349.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998360.jpg"
+    },
+    {
+      "id": "998361",
+      "name": "Adult Fast Quench & Oblong Oyster",
+      "brand": "Tupperware",
+      "price": 199.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/998361.jpg"
+    },{
+      "id": "116236",
+      "name": "Silicone Oven Glove (Bordeaux)",
+      "brand": "Tupperware",
+      "price": 249.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/116236.jpg"
+      },
+      {
+      "id": "125089",
+      "name": "Cottage Cookware Stockpot (7L)",
+      "brand": "Tupperware",
+      "price": 2199.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/125089.jpg"
+      },
+      {
+      "id": "163170",
+      "name": "Bamboo Clear Storage Jar 1.9L",
+      "brand": "Tupperware",
+      "price": 449.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/163170.jpg"
+      },
+      {
+      "id": "163171",
+      "name": "Bamboo Clear Storage Jar 550ml",
+      "brand": "Tupperware",
+      "price": 379.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/163171.jpg"
+      },
+      {
+      "id": "174317",
+      "name": "Multiserver 3L (Crushed Raspberry)",
+      "brand": "Tupperware",
+      "price": 259.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/174317.jpg"
+      },
+      {
+      "id": "175832",
+      "name": "Eco Bottle 2L (Caribbean Sea/Aruba)",
+      "brand": "Tupperware",
+      "price": 179.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/175832.jpg"
+      },
+      {
+      "id": "179451",
+      "name": "Xploris Easy Open Flask 450ml (Gradient Mountain Dawn)",
+      "brand": "Tupperware",
+      "price": 479.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/179451.jpg"
+      },
+      {
+      "id": "179452",
+      "name": "Xploris Easy Open Flask 450ml (Gradient Earth Sky)",
+      "brand": "Tupperware",
+      "price": 479.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/179452.jpg"
+      },
+      {
+      "id": "180343",
+      "name": "Eco Bottle 310ml (Dragonfly)",
+      "brand": "Tupperware",
+      "price": 90.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/180343.jpg"
+      },
+      {
+      "id": "180665",
+      "name": "Slimline Pitcher 2L (Brilliant Blue)",
+      "brand": "Tupperware",
+      "price": 189.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/180665.jpg"
+      },
+      {
+      "id": "181839",
+      "name": "Universal Jar with Straw 550ml (Soft Candy)",
+      "brand": "Tupperware",
+      "price": 209.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/181839.jpg"
+      },
+      {
+      "id": "183758",
+      "name": "Cutlery Set (Peacock)",
+      "brand": "Tupperware",
+      "price": 99.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/183758.jpg"
+      },
+      {
+      "id": "183815",
+      "name": "Blossom Plates (4) (Clover)",
+      "brand": "Tupperware",
+      "price": 249.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/183815.jpg"
+      },
+      {
+      "id": "183835",
+      "name": "Cutlery Set (Milky Mint)",
+      "brand": "Tupperware",
+      "price": 99.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/183835.jpg"
+      },
+      {
+      "id": "183846",
+      "name": "Modular Bowl 1.9L (Lilac)",
+      "brand": "Tupperware",
+      "price": 149.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/183846.jpg"
+      },
+      {
+      "id": "183930",
+      "name": "Expression Pitcher 2.1L (Mint)",
+      "brand": "Tupperware",
+      "price": 199.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/183930.jpg"
+      },
+      {
+      "id": "183933",
+      "name": "Jumbo Good Box 4L with handle (Merlot)",
+      "brand": "Tupperware",
+      "price": 249.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/183933.jpg"
+      },
+      {
+      "id": "183938",
+      "name": "Spice Servers Large Set (2) (Vineyard)",
+      "brand": "Tupperware",
+      "price": 159.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/183938.jpg"
+      },
+      {
+      "id": "184260",
+      "name": "Click to Go Small Round (Sage/Roots/Clover)",
+      "brand": "Tupperware",
+      "price": 279.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/184260.jpg"
+      },
+      {
+      "id": "184976",
+      "name": "Serving Cup 190ml (3) (Dragonfly/Celery/Sweet Morning)",
+      "brand": "Tupperware",
+      "price": 119.00,
+      "currency": "ZAR",
+      "status": "Available",
+      "image": "./data/images/products/184976.jpg"
+      }
+  ]
+}
