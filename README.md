@@ -7,8 +7,8 @@ Products are loaded from `items.json` and rendered dynamically in the browser.
 
 
 
-```
+---
 
 (WEBSITE)[https://theekingza.github.io/sos]
 
-```
+---
